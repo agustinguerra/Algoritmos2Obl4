@@ -1,6 +1,6 @@
 ﻿#include "CasoDePrueba.h"
 #include "CadenaFuncionHash.h"
-
+#include "FuncionCostoCadenaInt.h"
 
 CasoDePrueba::CasoDePrueba(Puntero<Sistema>(*inicializar)(nat max_ciudades))
 {
@@ -26,7 +26,8 @@ void CasoDePrueba::CorrerPruebaConcreta()
 	Prueba2TADGrafo();
 	Prueba3TADGrafo();
 	Prueba4TADGrafo();
-	Prueba5TADGrafo();
+	Prueba5TADGrafoA();
+	Prueba5TADGrafoB();
 	Prueba6TADGrafo();
 	Prueba1Ej2();
 	Prueba2Ej2();
@@ -308,6 +309,30 @@ Array<Cadena> CasoDePrueba::InicializarGrafoCadenas(Puntero<Grafo<Cadena, int>> 
 	return ciudades1;
 }
 
+Array<Cadena> CasoDePrueba::InicializarGrafoCadenas2(Puntero<Grafo<Cadena, int>> grafo) const
+{
+	// Creamos datos de pruebas en el grafo
+	Array<Cadena> ciudades1(5);
+	ciudades1[0] = "Montevideo";
+	ciudades1[1] = "Maldonado";
+	ciudades1[2] = "La Paz";
+	ciudades1[3] = "Salto";
+	ciudades1[4] = "Durazno";
+
+	foreach(Cadena ciudad, ciudades1.ObtenerIterador())
+	{
+		grafo->AgregarVertice(ciudad);
+	}
+
+	// Cramos aristas de nivel 1
+	grafo->AgregarArco(ciudades1[0], ciudades1[1], 10);
+	grafo->AgregarArco(ciudades1[0], ciudades1[2], 17);
+	grafo->AgregarArco(ciudades1[2], ciudades1[3], 1);
+	grafo->AgregarArco(ciudades1[2], ciudades1[4], 10);
+	grafo->AgregarArco(ciudades1[3], ciudades1[4], 3);
+
+	return ciudades1;
+}
 //Operacion 1:
 void CasoDePrueba::Prueba1TADGrafo()
 {
@@ -355,22 +380,22 @@ void CasoDePrueba::Prueba1TADGrafo()
 
 		CerrarSeccion();
 
-		IniciarSeccion("Pruebas Adjacentes", OK);
+		IniciarSeccion("Pruebas Adyacentes", OK);
 
-		Cadena adj = "Cantidad de vertieces adjacentes a '{0}' {1}";
+		Cadena ady = "Cantidad de vertieces adyacentes a '{0}' {1}";
 		Cadena aux = "esperado '{1}' obtenido '{0}'";
 		cantidades = 2;
-		Verificar(grafo->CantidadAdyacentes(ciudades[2]), cantidades, adj.DarFormato(ciudades[2], aux));
-		Verificar(grafo->CantidadAdyacentes(ciudades[0]), cantidades, adj.DarFormato(ciudades[0], aux));
+		Verificar(grafo->CantidadAdyacentes(ciudades[2]), cantidades, ady.DarFormato(ciudades[2], aux));
+		Verificar(grafo->CantidadAdyacentes(ciudades[0]), cantidades, ady.DarFormato(ciudades[0], aux));
 
 		Cadena incidentes = "Cantidad de vertieces incidentes a '{0}' {1}";
 		Verificar(grafo->CantidadIncidentes(ciudades[4]), cantidades, incidentes.DarFormato(ciudades[4], aux));
 
-		Array<Cadena> adjacentes(2);
-		adjacentes[0] = ciudades[4];
-		adjacentes[1] = ciudades[3];
+		Array<Cadena> adyacentes(2);
+		adyacentes[0] = ciudades[4];
+		adyacentes[1] = ciudades[3];
 
-		VerificarConjuntos(grafo->Adyacentes(ciudades[2]), adjacentes.ObtenerIterador());
+		VerificarConjuntos(grafo->Adyacentes(ciudades[2]), adyacentes.ObtenerIterador());
 
 		VerificarArco(grafo, ciudades[0], ciudades[1], 10);
 		VerificarArco(grafo, ciudades[2], ciudades[3], 1);
@@ -527,9 +552,9 @@ void CasoDePrueba::Prueba4TADGrafo()
 	}
 	CerrarSeccion();
 }
-void CasoDePrueba::Prueba5TADGrafo()
+void CasoDePrueba::Prueba5TADGrafoA()
 {
-	IniciarSeccion("TAD Grafo - cubrimiento minimo");
+	IniciarSeccion("TAD Grafo - cubrimiento minimo A");
 	Puntero<Sistema> interfaz = InicializarSistema();
 
 	ignorarOK = true;
@@ -538,7 +563,66 @@ void CasoDePrueba::Prueba5TADGrafo()
 	Puntero<Grafo<Cadena, int>> grafo = retorno.Dato2;
 	if (grafo != nullptr)
 	{
-		Array<Cadena> ciudades = InicializarGrafoCadenas(grafo);
+		Array<Cadena> ciudades = InicializarGrafoCadenas2(grafo);
+		ignorarOK = false;
+
+		Iterador<Tupla<Cadena, Cadena>> esperado1;
+		Iterador<Tupla<Cadena, Cadena>> esperado2;
+		Iterador<Tupla<Cadena, Cadena>> esperado3;
+
+		Iterador<Tupla<Cadena, Cadena>> obtenido;
+
+		Array<Tupla<Cadena, Cadena>> arbol1(4);
+		arbol1[0] = Tupla<Cadena, Cadena>(ciudades[0], ciudades[1]);
+		arbol1[1] = Tupla<Cadena, Cadena>(ciudades[0], ciudades[2]);
+		arbol1[2] = Tupla<Cadena, Cadena>(ciudades[2], ciudades[3]);
+		arbol1[3] = Tupla<Cadena, Cadena>(ciudades[2], ciudades[4]);
+
+		Array<Tupla<Cadena, Cadena>> arbol2(4);
+		arbol2[0] = Tupla<Cadena, Cadena>(ciudades[0], ciudades[1]);
+		arbol2[1] = Tupla<Cadena, Cadena>(ciudades[0], ciudades[2]);
+		arbol2[2] = Tupla<Cadena, Cadena>(ciudades[2], ciudades[4]);
+		arbol2[3] = Tupla<Cadena, Cadena>(ciudades[4], ciudades[3]);
+
+		Array<Tupla<Cadena, Cadena>> arbol3(4);
+		arbol3[0] = Tupla<Cadena, Cadena>(ciudades[0], ciudades[1]);
+		arbol3[1] = Tupla<Cadena, Cadena>(ciudades[0], ciudades[2]);
+		arbol3[2] = Tupla<Cadena, Cadena>(ciudades[2], ciudades[3]);
+		arbol3[3] = Tupla<Cadena, Cadena>(ciudades[3], ciudades[4]);
+		
+		esperado1 = arbol1.ObtenerIterador();
+		esperado2 = arbol2.ObtenerIterador();
+		esperado3 = arbol3.ObtenerIterador();
+
+		obtenido = grafo->ArbolCubrimientoMinimo();
+
+		if (MismosElementos(obtenido, esperado1)) {
+			VerificarConjuntos(obtenido, esperado1);
+		}
+		if (MismosElementos(obtenido, esperado2)) {
+			VerificarConjuntos(obtenido, esperado2);
+		}
+		if (MismosElementos(obtenido, esperado3)) {
+			VerificarConjuntos(obtenido, esperado3);
+		}
+		VerificarConjuntos(obtenido, esperado1);
+		
+	}
+	CerrarSeccion();
+}
+
+void CasoDePrueba::Prueba5TADGrafoB()
+{
+	IniciarSeccion("TAD Grafo - cubrimiento minimo B");
+	Puntero<Sistema> interfaz = InicializarSistema();
+
+	ignorarOK = true;
+	Tupla<TipoRetorno, Puntero<Grafo<Cadena, int>>> retorno = interfaz->CrearGrafo<Cadena, int>(maxVertices, new CadenaFuncionHash(), Comparador<Cadena>::Default);
+
+	Puntero<Grafo<Cadena, int>> grafo = retorno.Dato2;
+	if (grafo != nullptr)
+	{
+		Array<Cadena> ciudades = InicializarGrafoCadenas2(grafo);
 		ignorarOK = false;
 
 		Iterador<Tupla<Cadena, Cadena>> esperado;
@@ -548,15 +632,16 @@ void CasoDePrueba::Prueba5TADGrafo()
 		arbol[0] = Tupla<Cadena, Cadena>(ciudades[0], ciudades[1]);
 		arbol[1] = Tupla<Cadena, Cadena>(ciudades[0], ciudades[2]);
 		arbol[2] = Tupla<Cadena, Cadena>(ciudades[2], ciudades[3]);
-		arbol[3] = Tupla<Cadena, Cadena>(ciudades[2], ciudades[4]);
-		
-		esperado = arbol.ObtenerIterador();
-		obtenido = grafo->ArbolCubrimientoMinimo();
+		arbol[3] = Tupla<Cadena, Cadena>(ciudades[3], ciudades[4]);
 
+		esperado = arbol.ObtenerIterador();
+		obtenido = grafo->ArbolCubrimientoMinimo(FuncionCostoCadenaInt());
+			
 		VerificarConjuntos(obtenido, esperado);
-	}
+	}	
 	CerrarSeccion();
 }
+
 void CasoDePrueba::VerificarComponentes(const Iterador<Iterador<Cadena>> &obtenidos, const Iterador<Iterador<Cadena>> &esperados)
 {
 	bool verificarCantidad = true;

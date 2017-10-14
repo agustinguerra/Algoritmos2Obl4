@@ -27,6 +27,24 @@
     <ClCompile Include="main.cpp">
       <Filter>Obligatorio</Filter>
     </ClCompile>
+    <ClCompile Include="GrafoImp.cpp">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClCompile>
+    <ClCompile Include="TablaHashAbierto.cpp">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaOrdImp.cpp">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClCompile>
+    <ClCompile Include="ComparadorTupla.cpp">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClCompile>
+    <ClCompile Include="IteradorListaOrdImp.cpp">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClCompile>
+    <ClCompile Include="IteradorHashAbierto.cpp">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CasoDePrueba.h">
@@ -39,6 +57,33 @@
       <Filter>Obligatorio\Tads</Filter>
     </ClInclude>
     <ClInclude Include="FuncionCosto.h">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClInclude>
+    <ClInclude Include="GrafoImp.h">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClInclude>
+    <ClInclude Include="TablaHashAbierto.h">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClInclude>
+    <ClInclude Include="Tabla.h">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaOrd.h">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaOrdImp.h">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClInclude>
+    <ClInclude Include="ComparadorTupla.h">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClInclude>
+    <ClInclude Include="IteradorListaOrdImp.h">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClInclude>
+    <ClInclude Include="IteradorHashAbierto.h">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncionCostoCadenaInt.h">
       <Filter>Obligatorio\Tads</Filter>
     </ClInclude>
   </ItemGroup>

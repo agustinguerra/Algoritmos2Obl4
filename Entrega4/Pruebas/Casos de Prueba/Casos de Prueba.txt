@@ -1,0 +1,1577 @@
+********************************************* Pruebas TAD Grafo OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se crea el grafo.
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: El grafo creado es nulo.
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas TAD Grafo - Orden topologico OK *********************************************
+
+
+
+
+
+********************************************* Pruebas TAD Grafo - HayCamino OK *********************************************
+
+
+
+
+
+********************************************* Pruebas TAD Grafo - Es conexo OK *********************************************
+
+
+
+
+
+********************************************* Pruebas TAD Grafo - cubrimiento minimo OK *********************************************
+
+
+
+
+
+********************************************* Pruebas TAD Grafo - componentes conexas OK *********************************************
+
+
+
+
+
+********************************************* Pruebas Ejercicio Grafo 1 - Creacion OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Montevideo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Maldonado'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'La Paz'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Durazno'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-Maldonado'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-La Paz'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'La Paz-Montevideo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'La Paz-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'La Paz-Durazno'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Durazno-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Salto-Maldonado'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Gualeguaychu'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Mar del Plata'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Gualeguaychu-Mar del Plata'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Gualeguaychu-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Mar del Plata-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Buenos Aires-Mar del Plata'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Buenos Aires-Gualeguaychu'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'San Pablo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Brasilia'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Natal'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Rio'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'San Pablo-Brasilia'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Brasilia-Natal'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Natal-Rio'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Rio-San Pablo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Salto-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Salto-Gualeguaychu'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-San Pablo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Maldonado-Natal'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: La ciudad 'Montevideo' ya existe
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba ERROR
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: La ciudad 'La Paz' ya existe
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba ERROR
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: No existe ciudad 'Roma'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba ERROR
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: No existe ciudad 'Roma'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba ERROR
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Ejercicio Grafo 2 - CAmino Mas Barato OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Montevideo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Maldonado'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'La Paz'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Durazno'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-Maldonado'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-La Paz'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'La Paz-Montevideo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'La Paz-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'La Paz-Durazno'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Durazno-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Salto-Maldonado'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se verifica camino mas barato entre 'Montevideo-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Gualeguaychu'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Mar del Plata'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Gualeguaychu-Mar del Plata'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Gualeguaychu-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Mar del Plata-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Buenos Aires-Mar del Plata'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Buenos Aires-Gualeguaychu'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'San Pablo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Brasilia'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Natal'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Rio'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'San Pablo-Brasilia'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Brasilia-Natal'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Natal-Rio'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Rio-San Pablo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se verifica camino mas barato entre 'Montevideo-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se verifica camino mas barato entre 'Gualeguaychu-Mar del Plata'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Salto-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Salto-Gualeguaychu'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-San Pablo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Maldonado-Natal'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se verifica camino mas barato entre 'Montevideo-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se verifica camino mas barato entre 'Gualeguaychu-Mar del Plata'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se verifica camino mas barato entre 'Montevideo-Mar del Plata'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Ejercicio Grafo 2 - CAmino Menor tiempo OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Montevideo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Maldonado'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'La Paz'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Durazno'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-Maldonado'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-La Paz'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'La Paz-Montevideo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'La Paz-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'La Paz-Durazno'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Durazno-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Salto-Maldonado'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se verifica camino de menor tiempo entre 'Montevideo-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Gualeguaychu'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Mar del Plata'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Gualeguaychu-Mar del Plata'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Gualeguaychu-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Mar del Plata-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Buenos Aires-Mar del Plata'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Buenos Aires-Gualeguaychu'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'San Pablo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Brasilia'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Natal'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Rio'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'San Pablo-Brasilia'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Brasilia-Natal'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Natal-Rio'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Rio-San Pablo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Salto-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Salto-Gualeguaychu'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-San Pablo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Maldonado-Natal'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se verifica camino de menor tiempo entre 'Montevideo-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se verifica camino de menor tiempo entre 'Montevideo-Mar del Plata'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se verifica camino de menor tiempo entre 'Montevideo-Natal'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Ejercicio Grafo 2 - CAmino Menos ciudades OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Montevideo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Maldonado'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'La Paz'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Durazno'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-Maldonado'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-La Paz'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'La Paz-Montevideo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'La Paz-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'La Paz-Durazno'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Durazno-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Salto-Maldonado'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Gualeguaychu'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Mar del Plata'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Gualeguaychu-Mar del Plata'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Gualeguaychu-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Mar del Plata-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Buenos Aires-Mar del Plata'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Buenos Aires-Gualeguaychu'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'San Pablo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Brasilia'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Natal'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Rio'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'San Pablo-Brasilia'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Brasilia-Natal'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Natal-Rio'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Rio-San Pablo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Salto-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Salto-Gualeguaychu'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-San Pablo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Maldonado-Natal'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se verifica camino de menos ciudades entre 'Montevideo-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se verifica camino de menos ciudades entre 'Montevideo-Gualeguaychu'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se verifica camino de menos ciudades entre 'Montevideo-Natal'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Ejercicio Grafo 2 - CaminoMenosTrayectosOmnibus OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Montevideo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Maldonado'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'La Paz'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Durazno'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-Maldonado'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-La Paz'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'La Paz-Montevideo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'La Paz-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'La Paz-Durazno'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Durazno-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Salto-Maldonado'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Gualeguaychu'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Mar del Plata'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Gualeguaychu-Mar del Plata'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Gualeguaychu-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Mar del Plata-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Buenos Aires-Mar del Plata'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Buenos Aires-Gualeguaychu'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'San Pablo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Brasilia'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Natal'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Rio'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'San Pablo-Brasilia'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Brasilia-Natal'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Natal-Rio'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Rio-San Pablo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Salto-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Salto-Gualeguaychu'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-San Pablo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Maldonado-Natal'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se verifica camino de menos trayecto omnibus entre 'Montevideo-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Ejercicio Grafo 2 - CaminoMenosTrayectosAvion OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Montevideo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Maldonado'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'La Paz'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Durazno'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-Maldonado'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-La Paz'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'La Paz-Montevideo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'La Paz-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'La Paz-Durazno'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Durazno-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Salto-Maldonado'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Gualeguaychu'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Mar del Plata'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Gualeguaychu-Mar del Plata'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Gualeguaychu-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Mar del Plata-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Buenos Aires-Mar del Plata'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Buenos Aires-Gualeguaychu'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'San Pablo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Brasilia'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Natal'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Rio'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'San Pablo-Brasilia'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Brasilia-Natal'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Natal-Rio'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Rio-San Pablo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta un trayecto auxiliar entre Montevideo Durazno
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Salto-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Salto-Gualeguaychu'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-San Pablo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Maldonado-Natal'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se verifica camino de menos trayecto avion entre 'Montevideo-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se verifica camino de menos trayecto avion entre 'Montevideo-San Pablo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Ejercicio Grafo 2 - CaminoMenosParadasIntermedias OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Montevideo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Maldonado'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'La Paz'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Durazno'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-Maldonado'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-La Paz'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'La Paz-Montevideo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'La Paz-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'La Paz-Durazno'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Durazno-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Salto-Maldonado'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Gualeguaychu'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Mar del Plata'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Gualeguaychu-Mar del Plata'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Gualeguaychu-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Mar del Plata-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Buenos Aires-Mar del Plata'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Buenos Aires-Gualeguaychu'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'San Pablo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Brasilia'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Natal'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Rio'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'San Pablo-Brasilia'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Brasilia-Natal'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Natal-Rio'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Rio-San Pablo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Salto-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Salto-Gualeguaychu'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-San Pablo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Maldonado-Natal'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se verifica camino de menos paradas intermedias entre 'Montevideo-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Ejercicio Grafo 2 - CaminoMasBaratoOminbus OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Montevideo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Maldonado'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'La Paz'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Durazno'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-Maldonado'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-La Paz'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'La Paz-Montevideo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'La Paz-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'La Paz-Durazno'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Durazno-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Salto-Maldonado'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Gualeguaychu'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Mar del Plata'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Gualeguaychu-Mar del Plata'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Gualeguaychu-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Mar del Plata-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Buenos Aires-Mar del Plata'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Buenos Aires-Gualeguaychu'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'San Pablo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Brasilia'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Natal'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la ciuadad 'Rio'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'San Pablo-Brasilia'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Brasilia-Natal'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Natal-Rio'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Rio-San Pablo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Salto-Buenos Aires'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Salto-Gualeguaychu'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Montevideo-San Pablo'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se da de alta la conexion 'Maldonado-Natal'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se verifica camino mas barato por omnibus entre 'Montevideo-Salto'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se verifica camino mas barato por omnibus entre 'Montevideo-Natal'
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+  +------------------------------+
+    Pruebas Correctas : 0
+    Pruebas Incorrectas: 1
+    Pruebas NI: 297
+  +------------------------------+

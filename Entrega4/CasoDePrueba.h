@@ -52,6 +52,7 @@ private:
 	bool Pertenece(const T& dato, Iterador<T> iterador, T& encontrado) const;
 
 	Array<Cadena> InicializarGrafoCadenas(Puntero<Grafo<Cadena, int>> grafo) const;
+	Array<Cadena> InicializarGrafoCadenas2(Puntero<Grafo<Cadena, int>> grafo) const;
 	Array<Cadena> InicializarCiudades1(Puntero<Sistema> interfaz, bool conexiones);
 	Array<Cadena> InicializarCiudades2(Puntero<Sistema> interfaz, bool conexiones);
 	Array<Cadena> InicializarCiudades3(Puntero<Sistema> interfaz, bool conexiones);
@@ -69,7 +70,8 @@ private:
 	void Prueba2TADGrafo();
 	void Prueba3TADGrafo();
 	void Prueba4TADGrafo();
-	void Prueba5TADGrafo();
+	void Prueba5TADGrafoA();
+	void Prueba5TADGrafoB();
 	void Prueba6TADGrafo();
 	void Prueba1Ej2();
 	void Prueba2Ej2();
