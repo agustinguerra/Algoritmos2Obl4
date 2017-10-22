@@ -45,6 +45,9 @@
     <ClCompile Include="IteradorHashAbierto.cpp">
       <Filter>Obligatorio\Tads</Filter>
     </ClCompile>
+    <ClCompile Include="ColaPrioridadExtendidaImp.cpp">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CasoDePrueba.h">
@@ -84,6 +87,12 @@
       <Filter>Obligatorio\Tads</Filter>
     </ClInclude>
     <ClInclude Include="FuncionCostoCadenaInt.h">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClInclude>
+    <ClInclude Include="ColaPrioridadExtendida.h">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClInclude>
+    <ClInclude Include="ColaPrioridadExtendidaImp.h">
       <Filter>Obligatorio\Tads</Filter>
     </ClInclude>
   </ItemGroup>

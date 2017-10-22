@@ -4,12 +4,150 @@
 
 ----------------------------- Testeo --------------------------------
   Comentario: Se crea el grafo.
-  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Pruebas creacion del grafo OK *********************************************
+
+
+
+
+
+********************************************* Pruebas Pruebas Vertices del grafo OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Cantidad de vertices esperada '5', obtenida '5'
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: El grafo creado es nulo.
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Cantidad de arcos esperada '5', obtenida '5'
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: El vertice 'Montevideo' pertenece al grafo.
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: El vertice 'Maldonado' pertenece al grafo.
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: El vertice 'La Paz' pertenece al grafo.
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: El vertice 'Salto' pertenece al grafo.
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: El vertice 'Durazno' pertenece al grafo.
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo Montevideo y se esperaba Montevideo
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo Maldonado y se esperaba Maldonado
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo La Paz y se esperaba La Paz
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo Salto y se esperaba Salto
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo Durazno y se esperaba Durazno
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Pruebas Adyacentes OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Cantidad de vertieces adyacentes a 'La Paz' esperado '2' obtenido '2'
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Cantidad de vertieces adyacentes a 'Montevideo' esperado '2' obtenido '2'
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Cantidad de vertieces incidentes a 'Durazno' esperado '2' obtenido '2'
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo Durazno y se esperaba Durazno
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo Salto y se esperaba Salto
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Arco entre 'Montevideo -> Maldonado' existe
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Arco entre 'Montevideo -> Maldonado' esperado '10' obtenido '10'
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Arco entre 'La Paz -> Salto' existe
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Arco entre 'La Paz -> Salto' esperado '1' obtenido '1'
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Arco entre 'La Paz -> Durazno' existe
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Arco entre 'La Paz -> Durazno' esperado '3' obtenido '3'
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Arco entre 'Montevideo -> La Paz' existe
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Arco entre 'Montevideo -> La Paz' esperado '17' obtenido '17'
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 
@@ -18,11 +156,41 @@
 
 
 
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo el orden: '--'
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
 
 
 ********************************************* Pruebas TAD Grafo - HayCamino OK *********************************************
 
 
+
+----------------------------- Testeo --------------------------------
+  Comentario: Hay camino entre el vertice 'Montevideo' y 'Maldonado'
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: No hay camino entre el vertice 'Maldonado' y 'Montevideo'
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Hay camino entre el vertice 'Montevideo' y 'Salto'
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Hay camino entre el vertice 'Montevideo' y 'Durazno'
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: No hay camino entre el vertice 'Salto' y 'Montevideo'
+  Retorno obtenido OK
+---------------------------------------------------------------------
 
 
 
@@ -30,17 +198,128 @@
 
 
 
+----------------------------- Testeo --------------------------------
+  Comentario: Se esperaba un grafo 'Debilmente Conexo' y se obtuvo 'No Conexo'
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se esperaba un grafo 'Fuertemente Conexo' y se obtuvo 'No Conexo'
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se esperaba un grafo 'No Conexo' y se obtuvo 'No Conexo'
+  Retorno obtenido OK
+---------------------------------------------------------------------
 
 
-********************************************* Pruebas TAD Grafo - cubrimiento minimo OK *********************************************
+
+********************************************* Pruebas TAD Grafo - cubrimiento minimo A OK *********************************************
 
 
+
+----------------------------- Testeo --------------------------------
+  Comentario: No se esperaba  ( - ) 
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: No se esperaba  ( - ) 
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: No se esperaba  ( - ) 
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se esperaba  (Montevideo - Maldonado) 
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se esperaba  (Montevideo - La Paz) 
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se esperaba  (La Paz - Salto) 
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se esperaba  (La Paz - Durazno) 
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas TAD Grafo - cubrimiento minimo B OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: No se esperaba  ( - ) 
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: No se esperaba  ( - ) 
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: No se esperaba  ( - ) 
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se esperaba  (Montevideo - Maldonado) 
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se esperaba  (Montevideo - La Paz) 
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se esperaba  (La Paz - Salto) 
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se esperaba  (Salto - Durazno) 
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
 
 
 
 ********************************************* Pruebas TAD Grafo - componentes conexas OK *********************************************
 
 
+
+----------------------------- Testeo --------------------------------
+  Comentario: Sobra la componente ''
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Sobra la componente ''
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Sobra la componente ''
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta la componente 'Montevideo-Maldonado-La Paz-Salto-Durazno'
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
 
 
 
@@ -1571,7 +1850,7 @@
 ---------------------------------------------------------------------
 
   +------------------------------+
-    Pruebas Correctas : 0
-    Pruebas Incorrectas: 1
-    Pruebas NI: 297
+    Pruebas Correctas : 33
+    Pruebas Incorrectas: 20
+    Pruebas NI: 296
   +------------------------------+

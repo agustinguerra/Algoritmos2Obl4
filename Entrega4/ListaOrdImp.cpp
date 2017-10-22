@@ -150,6 +150,7 @@ bool ListaOrdImp<T>::Pertenece(const T& e) const {
 		if (comparador.Comparar(aux->dato, e) == IGUALES) {
 			break;
 		}
+		aux = aux->siguiente;
 	}
 	if (aux == NULL) {
 		return false;
@@ -196,9 +197,10 @@ int ListaOrdImp<T>::indexOf(const T& e) {
 	Puntero<NodoLista<T>> aux = this->lista;
 	int contador = 0;
 	while (aux != NULL) {
-		if (comparador.Comparar(e, this->lista->dato) == IGUALES) {
+		if (comparador.Comparar(e, aux->dato) == IGUALES) {
 			return contador;
 		}
+		aux = aux->siguiente;
 		contador = contador + 1;
 	}
 	return -1;

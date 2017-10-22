@@ -96,6 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CasoDePrueba.cpp" />
+    <ClCompile Include="ColaPrioridadExtendidaImp.cpp" />
     <ClCompile Include="ComparadorTupla.cpp" />
     <ClCompile Include="GrafoImp.cpp" />
     <ClCompile Include="IteradorHashAbierto.cpp" />
@@ -108,6 +109,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CasoDePrueba.h" />
+    <ClInclude Include="ColaPrioridadExtendida.h" />
+    <ClInclude Include="ColaPrioridadExtendidaImp.h" />
     <ClInclude Include="ComparadorTupla.h" />
     <ClInclude Include="FuncionCosto.h" />
     <ClInclude Include="FuncionCostoCadenaInt.h" />

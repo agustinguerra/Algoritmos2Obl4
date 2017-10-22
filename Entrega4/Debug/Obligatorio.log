@@ -1,25 +1,13 @@
 ﻿  CasoDePrueba.cpp
+  ColaPrioridadExtendidaImp.cpp
   ComparadorTupla.cpp
   GrafoImp.cpp
   IteradorHashAbierto.cpp
   IteradorListaOrdImp.cpp
   ListaOrdImp.cpp
   main.cpp
-c:\users\usuario\documents\github\algoritmos2obl4\entrega4\grafoimp.cpp(113): error C4716: 'GrafoImp<Cadena,int>::ObtenerArco': must return a value
-c:\users\usuario\documents\github\algoritmos2obl4\entrega4\grafoimp.cpp(116): error C4716: 'GrafoImp<Cadena,int>::CantidadVertices': must return a value
-c:\users\usuario\documents\github\algoritmos2obl4\entrega4\grafoimp.cpp(119): error C4716: 'GrafoImp<Cadena,int>::CantidadArcos': must return a value
-c:\users\usuario\documents\github\algoritmos2obl4\entrega4\grafoimp.cpp(122): error C4716: 'GrafoImp<Cadena,int>::CantidadAdyacentes': must return a value
-c:\users\usuario\documents\github\algoritmos2obl4\entrega4\grafoimp.cpp(125): error C4716: 'GrafoImp<Cadena,int>::CantidadIncidentes': must return a value
-c:\users\usuario\documents\github\algoritmos2obl4\entrega4\grafoimp.cpp(128): error C4716: 'GrafoImp<Cadena,int>::ExisteVertice': must return a value
-c:\users\usuario\documents\github\algoritmos2obl4\entrega4\grafoimp.cpp(131): error C4716: 'GrafoImp<Cadena,int>::ExisteArco': must return a value
-c:\users\usuario\documents\github\algoritmos2obl4\entrega4\grafoimp.cpp(134): error C4716: 'GrafoImp<Cadena,int>::EstaLleno': must return a value
-c:\users\usuario\documents\github\algoritmos2obl4\entrega4\grafoimp.cpp(137): error C4716: 'GrafoImp<Cadena,int>::EstaVacio': must return a value
-c:\users\usuario\documents\github\algoritmos2obl4\entrega4\grafoimp.cpp(140): error C4716: 'GrafoImp<Cadena,int>::HayCamino': must return a value
-c:\users\usuario\documents\github\algoritmos2obl4\entrega4\grafoimp.cpp(110): error C4716: 'GrafoImp<Cadena,int>::Incidentes': must return a value
-c:\users\usuario\documents\github\algoritmos2obl4\entrega4\grafoimp.cpp(143): error C4716: 'GrafoImp<Cadena,int>::EsConexo': must return a value
-c:\users\usuario\documents\github\algoritmos2obl4\entrega4\grafoimp.cpp(146): error C4716: 'GrafoImp<Cadena,int>::OrdenTopologico': must return a value
-c:\users\usuario\documents\github\algoritmos2obl4\entrega4\grafoimp.cpp(152): error C4716: 'GrafoImp<Cadena,int>::ComponentesConexas': must return a value
-c:\users\usuario\documents\github\algoritmos2obl4\entrega4\grafoimp.cpp(149): error C4716: 'GrafoImp<Cadena,int>::ArbolCubrimientoMinimo': must return a value
   Sistema.cpp
   SistemaTemplates.cpp
   TablaHashAbierto.cpp
+  Obligatorio.vcxproj -> C:\Users\Usuario\Documents\GitHub\Algoritmos2Obl4\Entrega4\Debug\Obligatorio.exe
+  Obligatorio.vcxproj -> Debug\Obligatorio.pdb (Full PDB)

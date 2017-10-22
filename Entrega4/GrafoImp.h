@@ -3,6 +3,7 @@
 #include "Grafo.h"
 #include "ListaOrdImp.h"
 #include "TablaHashAbierto.h"
+#include "ColaPrioridadExtendidaImp.h"
 
 template <class V, class A>
 class GrafoImp : public Grafo<V,A>
@@ -23,6 +24,7 @@ public:
 	
 	const int GetPosVertice(const V& v) const;
 
+
 	Iterador<V> Vertices() const override;
 	Iterador<V> Adyacentes(const V& v) const override;
 	Iterador<V> Incidentes(const V& v) const override;
@@ -38,6 +40,7 @@ public:
 	bool EstaLleno() const override;
 	bool EstaVacio() const override;
 
+	void dfsUtil(int vO, Array<bool> visitados) const;
 	bool HayCamino(const V& vO, const V& vD) const override;
 	TipoConexo EsConexo() const override;
 	Iterador<V> OrdenTopologico() const override;
