@@ -7,6 +7,9 @@
 #include "FuncionHash.h"
 #include "Comparador.h"
 #include "TipoRetorno.h"
+#include "GrafoImp.h"
+#include "FuncionHashCadena.h"
+
 
 enum TipoTransporte
 {
@@ -33,6 +36,10 @@ public:
 	Tupla<TipoRetorno, Iterador<Cadena>> CaminoMasBaratoOminbus(const Cadena &ciudadOrigen, const Cadena &ciudadDestino);
 private:
 	
+	int max_ciudades;
+	Puntero<Grafo<Cadena, Tupla<TipoTransporte, int, int, int>>> grafo;
+	Puntero<FuncionHash<Cadena>> funcHashCadena;
+
 };
 
 #include "SistemaTemplates.cpp"
