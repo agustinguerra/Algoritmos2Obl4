@@ -4,6 +4,8 @@
 #include "ListaOrdImp.h"
 #include "TablaHashAbierto.h"
 #include "ColaPrioridadExtendidaImp.h"
+#include "PilaArray.h"
+#include "FuncionCostoCadenaInt.h"
 
 template <class V, class A>
 class GrafoImp : public Grafo<V,A>
@@ -41,7 +43,9 @@ public:
 	bool EstaVacio() const override;
 
 	void dfsUtil(int vO, Array<bool> visitados) const;
+	void fixComponentes(Array<int> compConex, int v1, int v2) const;
 	bool HayCamino(const V& vO, const V& vD) const override;
+	void ordTopAux(Array<bool> visitados, int v, PilaArray<V> stack) const;
 	TipoConexo EsConexo() const override;
 	Iterador<V> OrdenTopologico() const override;
 	Iterador<Tupla<V, V>> ArbolCubrimientoMinimo(const FuncionCosto<V, A>& costo = FuncionCosto<V, A>::Default) const override;

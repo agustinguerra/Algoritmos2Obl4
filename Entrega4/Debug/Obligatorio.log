@@ -1,11 +1,18 @@
-﻿  CasoDePrueba.cpp
+﻿  ComparacionCMB.cpp
+  CasoDePrueba.cpp
   ColaPrioridadExtendidaImp.cpp
   ComparadorTupla.cpp
+  Costos.cpp
+  Dijkstra.cpp
+  DijkstraAux.cpp
+  FuncionHashCadena.cpp
   GrafoImp.cpp
   IteradorHashAbierto.cpp
   IteradorListaOrdImp.cpp
+  IteradorPilaArray.cpp
   ListaOrdImp.cpp
   main.cpp
+  PilaArray.cpp
   Sistema.cpp
   SistemaTemplates.cpp
   TablaHashAbierto.cpp

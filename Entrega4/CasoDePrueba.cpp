@@ -605,7 +605,7 @@ void CasoDePrueba::Prueba5TADGrafoA()
 		if (MismosElementos(obtenido, esperado3)) {
 			VerificarConjuntos(obtenido, esperado3);
 		}
-		VerificarConjuntos(obtenido, esperado1);
+//		VerificarConjuntos(obtenido, esperado1);
 		
 	}
 	CerrarSeccion();

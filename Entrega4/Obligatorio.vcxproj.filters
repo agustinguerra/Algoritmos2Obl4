@@ -48,6 +48,27 @@
     <ClCompile Include="ColaPrioridadExtendidaImp.cpp">
       <Filter>Obligatorio\Tads</Filter>
     </ClCompile>
+    <ClCompile Include="IteradorPilaArray.cpp">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClCompile>
+    <ClCompile Include="PilaArray.cpp">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClCompile>
+    <ClCompile Include="DijkstraAux.cpp">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClCompile>
+    <ClCompile Include="Costos.cpp">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClCompile>
+    <ClCompile Include="Dijkstra.cpp">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClCompile>
+    <ClCompile Include="FuncionHashCadena.cpp">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClCompile>
+    <ClCompile Include="ComparacionCMB.cpp">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CasoDePrueba.h">
@@ -93,6 +114,30 @@
       <Filter>Obligatorio\Tads</Filter>
     </ClInclude>
     <ClInclude Include="ColaPrioridadExtendidaImp.h">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClInclude>
+    <ClInclude Include="IteradorPilaArray.h">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClInclude>
+    <ClInclude Include="Pila.h">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClInclude>
+    <ClInclude Include="PilaArray.h">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClInclude>
+    <ClInclude Include="DijkstraAux.h">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClInclude>
+    <ClInclude Include="Costos.h">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClInclude>
+    <ClInclude Include="Dijkstra.h">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncionHashCadena.h">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClInclude>
+    <ClInclude Include="ComparacionCMB.h">
       <Filter>Obligatorio\Tads</Filter>
     </ClInclude>
   </ItemGroup>

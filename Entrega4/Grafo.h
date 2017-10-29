@@ -38,6 +38,8 @@ public:
 	// POS: El arco 'arco' entre los vertices v1 y v2 no pertenece al grafo
 	virtual void BorrarArco(const V& v1, const V& v2) abstract;
 
+	virtual const int GetPosVertice(const V& v) const abstract;
+
 	// SELECTORAS y PREDICADOS
 
 	// PRE: -

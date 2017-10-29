@@ -95,14 +95,21 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ComparacionCMB.cpp" />
     <ClCompile Include="CasoDePrueba.cpp" />
     <ClCompile Include="ColaPrioridadExtendidaImp.cpp" />
     <ClCompile Include="ComparadorTupla.cpp" />
+    <ClCompile Include="Costos.cpp" />
+    <ClCompile Include="Dijkstra.cpp" />
+    <ClCompile Include="DijkstraAux.cpp" />
+    <ClCompile Include="FuncionHashCadena.cpp" />
     <ClCompile Include="GrafoImp.cpp" />
     <ClCompile Include="IteradorHashAbierto.cpp" />
     <ClCompile Include="IteradorListaOrdImp.cpp" />
+    <ClCompile Include="IteradorPilaArray.cpp" />
     <ClCompile Include="ListaOrdImp.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="PilaArray.cpp" />
     <ClCompile Include="Sistema.cpp" />
     <ClCompile Include="SistemaTemplates.cpp" />
     <ClCompile Include="TablaHashAbierto.cpp" />
@@ -111,15 +118,23 @@
     <ClInclude Include="CasoDePrueba.h" />
     <ClInclude Include="ColaPrioridadExtendida.h" />
     <ClInclude Include="ColaPrioridadExtendidaImp.h" />
+    <ClInclude Include="ComparacionCMB.h" />
     <ClInclude Include="ComparadorTupla.h" />
+    <ClInclude Include="Costos.h" />
+    <ClInclude Include="Dijkstra.h" />
+    <ClInclude Include="DijkstraAux.h" />
     <ClInclude Include="FuncionCosto.h" />
     <ClInclude Include="FuncionCostoCadenaInt.h" />
+    <ClInclude Include="FuncionHashCadena.h" />
     <ClInclude Include="Grafo.h" />
     <ClInclude Include="GrafoImp.h" />
     <ClInclude Include="IteradorHashAbierto.h" />
     <ClInclude Include="IteradorListaOrdImp.h" />
+    <ClInclude Include="IteradorPilaArray.h" />
     <ClInclude Include="ListaOrd.h" />
     <ClInclude Include="ListaOrdImp.h" />
+    <ClInclude Include="Pila.h" />
+    <ClInclude Include="PilaArray.h" />
     <ClInclude Include="Sistema.h" />
     <ClInclude Include="Tabla.h" />
     <ClInclude Include="TablaHashAbierto.h" />

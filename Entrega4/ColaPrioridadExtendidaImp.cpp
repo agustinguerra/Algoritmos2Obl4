@@ -50,14 +50,15 @@ T ColaPrioridadExtendidaImp<T, P>::EliminarElementoMayorPrioridad() {
 	T elemADevolver = heap[1].Dato1;
 	swap(1, largo);
 	largo--;
-	for (int i = 1; i <= largo/2 ; i = i * 2) {
+	for (int i = 1; compP.EsMayor(heap[i].Dato2, heap[i * 2].Dato2) && i <= largo/2 ; i = i * 2) {
 		if (compP.Comparar(heap[i * 2].Dato2, heap[i].Dato2) == MENOR) {
-			if (compP.Comparar(heap[i * 2].Dato2, heap[i * 2 + 1].Dato2) == MENOR) {
-				swap(i, i * 2);
+			int posicionMinima = i * 2;
+			if (compP.Comparar(heap[i * 2 + 1].Dato2, heap[i * 2].Dato2) == MENOR) {
+				posicionMinima = i * 2 + 1;
 			}
-			else {
-				swap(i, i * 2+1);
-			}
+
+			swap(i, posicionMinima);
+			
 		}
 		else {
 			break;
